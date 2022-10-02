@@ -17,7 +17,7 @@ class CountryFormView(FormView):
 
 class FormSuccessView(View):
     def get(self, request, *args, **kwargs):
-        return HttpResponse("Search finished")
+        return HttpResponse("Search done")
 
 
 
